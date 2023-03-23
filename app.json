@@ -6,6 +6,10 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": [
+      "@config-plugins/react-native-blob-util",
+      "@config-plugins/react-native-pdf"
+    ],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nishant_dev.viewpdf"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2a86846a-0570-4bf1-a745-fd2a9f7c052d"
+      }
     }
   }
 }
