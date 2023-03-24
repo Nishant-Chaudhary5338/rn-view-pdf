@@ -5541,7 +5541,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@*":
+"prop-types@*", "prop-types@^15.6.0":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -5658,6 +5658,14 @@
   "integrity" "sha512-H2BjG2zk7B7Wii9sXvd9qhCVRQYDAHSWdMw9tscmZBqSP62DkIWEQSk4/B2GhQ4aK9ydVXgtqR6tBeg3yy8TSA=="
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.16.tgz"
   "version" "0.71.16"
+
+"react-native-openanything@^0.0.6":
+  "integrity" "sha512-ZFTYFFPH5j0VNpZDxd7jlaFz8qz1NMgXaHPioynAErk3CWyj6y261H1R06+nyoq7i0tJFKJXhuQzUrNemwcelQ=="
+  "resolved" "https://registry.npmjs.org/react-native-openanything/-/react-native-openanything-0.0.6.tgz"
+  "version" "0.0.6"
+  dependencies:
+    "lodash" "^4.17.4"
+    "prop-types" "^15.6.0"
 
 "react-native-pdf@^6.6.2":
   "integrity" "sha512-gqxNPSzL0lNN1dGYAz9ObSLb0shUTB8x1u69qKLMSmwuxFTpGui5PNNgpH8q/nlpL9zBzMVVc/AXEuDCwRyxEQ=="

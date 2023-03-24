@@ -11,15 +11,16 @@
     "@config-plugins/react-native-blob-util": "^5.0.0",
     "@config-plugins/react-native-pdf": "^5.0.0",
     "expo": "~48.0.9",
+    "expo-splash-screen": "~0.18.1",
     "expo-status-bar": "~1.4.4",
     "fbjs": "^3.0.4",
     "react": "18.2.0",
     "react-dom": "^18.2.0",
     "react-native": "0.71.4",
     "react-native-blob-util": "^0.17.3",
+    "react-native-openanything": "^0.0.6",
     "react-native-pdf": "^6.6.2",
-    "react-native-web": "~0.18.11",
-    "expo-splash-screen": "~0.18.1"
+    "react-native-web": "~0.18.11"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

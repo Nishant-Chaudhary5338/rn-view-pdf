@@ -1,20 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { StyleSheet, Dimensions, View, Button } from 'react-native';
+import * as openAnything from 'react-native-openanything';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>View pdf</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+
+
+function App() {
+    return(
+        <View>
+            <Button title = "Open Pdf"
+              onPress = {()=> openAnything.Pdf("https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf")}
+            >
+
+            </Button>
+        </View>
+    )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
+
